@@ -27,10 +27,10 @@
 + Подключить файлы `styles.css/scss` `index.js` 
 + Реализуйте верстку ``HTML`` полностью динамически с помощью javascript в созданный ``div id='root``
 
-#### NORMAL level (UI)
+#### NORMAL level
 
-![](norm-level.png)
+![UI](norm-level.png)
 
-#### EXTREME level (UI)
+#### EXTREME level
 
-![](extreme-level.png)
+![UI](extreme-level.png)
