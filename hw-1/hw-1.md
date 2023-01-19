@@ -15,9 +15,9 @@
 
  PS: Можно использовать любую css библиотеку. Например:
 
- - ![Tailwind](https://tailwindcss.com/)
- - ![Bootstrap](https://getbootstrap.com/)
- 
+ - [Tailwind](https://tailwindcss.com/)
+ - [Bootstrap](https://getbootstrap.com/)
+
  Если Bootstrap то файлы JS из этой библиотеки не подключаем, только стили!
 
 
@@ -25,7 +25,7 @@
 
 + В ``HTML`` разметке создайте ``div`` с ``id='root'``
 + Подключить файлы `styles.css/scss` `index.js` 
-+ Реализуйте верстку ``HTML`` полностью динамически с помощью javascript в созданный ``div id='root`` *
++ Реализуйте верстку ``HTML`` полностью динамически с помощью javascript в созданный ``div id='root``
 
 #### UI NORMAL level
 
