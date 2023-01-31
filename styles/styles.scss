@@ -14,7 +14,7 @@ body {
   background-color: $secondary-clr;
   font-family: 'Open Sans';
   font-size: 1rem;
-  max-height: 550px;
+  height: 550px;
   box-shadow: 1px 1px 5px black;
 }
 .container {
@@ -29,9 +29,13 @@ button {
   border-radius: 10px;
   min-height: 40px;
   box-shadow: 1px 1px 5px black;
+  transition: 0.3s;
   &:hover {
-    transition: 0.3s;
     transform: scale(1.01);
+  }
+  &:active {
+    transform: scale(1);
+    box-shadow: none;
   }
 }
 input {

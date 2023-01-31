@@ -12,7 +12,7 @@ body {
   background-color: #f1f5f7;
   font-family: "Open Sans";
   font-size: 1rem;
-  max-height: 550px;
+  height: 550px;
   box-shadow: 1px 1px 5px black;
 }
 
@@ -29,10 +29,14 @@ button {
   border-radius: 10px;
   min-height: 40px;
   box-shadow: 1px 1px 5px black;
+  transition: 0.3s;
 }
 button:hover {
-  transition: 0.3s;
   transform: scale(1.01);
+}
+button:active {
+  transform: scale(1);
+  box-shadow: none;
 }
 
 input {
