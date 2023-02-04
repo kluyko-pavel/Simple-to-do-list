@@ -1,0 +1,5 @@
+- [local storage js](https://learn.javascript.ru/localstorage)
+- [local storage video](https://www.youtube.com/watch?v=H3Z-aD1BOhY&t=134s)
+- [ключевое initial слово в CSS ](https://developer.mozilla.org/en-US/docs/Web/CSS/initial)
+- [глобальный объект JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+- [еще про json](https://habr.com/ru/post/554274/)

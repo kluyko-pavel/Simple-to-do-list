@@ -5,6 +5,7 @@
 $main-clr: #3e42ca;
 $secondary-clr: #f1f5f7;
 body {
+  min-width: 1000px;
   padding: 2%;
 }
 .wrapper {
@@ -44,9 +45,14 @@ input {
   border-radius: 10px;
   min-height: 40px;
   box-shadow: 1px 1px 5px black;
+  padding: 0 10px 0 10px;
+  transition: 0.1s;
   &::placeholder {
     color: #bdbdbd;
     text-align: center;
+  }
+  &:focus {
+    border: 2px solid $main-clr;
   }
 }
 .main-header {
