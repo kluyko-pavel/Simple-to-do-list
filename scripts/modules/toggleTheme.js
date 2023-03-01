@@ -9,14 +9,14 @@ function replaceStyles () {
 }
 
 export function handlerToggleTheme () {
-  const iconItem = document.querySelector('.toggle-theme-icon')
+  const themeBtn = document.querySelector('.toggle-theme-btn')
   if (localStorage.getItem('theme') === 'dark') {
     localStorage.setItem('theme', 'light')
-    iconItem.src = '../../assets/sun.png'
+    themeBtn.style.backgroundImage = 'url(../../assets/sun.png)'
     replaceStyles()
   } else {
     localStorage.setItem('theme', 'dark')
-    iconItem.src = '../../assets/dark.png'
+    themeBtn.style.backgroundImage = 'url(../../assets/dark.png)'
     replaceStyles()
   }
 }
