@@ -9,14 +9,11 @@ function replaceStyles () {
 }
 
 export function handlerToggleTheme () {
-  const themeBtn = document.querySelector('.toggle-theme-btn')
   if (localStorage.getItem('theme') === 'dark') {
     localStorage.setItem('theme', 'light')
-    themeBtn.style.backgroundImage = 'url(../../assets/sun.png)'
     replaceStyles()
   } else {
     localStorage.setItem('theme', 'dark')
-    themeBtn.style.backgroundImage = 'url(../../assets/dark.png)'
     replaceStyles()
   }
 }
