@@ -130,7 +130,7 @@ input:focus {
   min-height: 110px;
   margin-top: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 5px hsla(0, 4%, 68%, 0.2);
   border: 1px solid hsla(0, 2%, 60%, 0.2);
   position: relative;
   display: flex;
@@ -220,7 +220,7 @@ input:focus {
 .dark {
   background-color: rgb(11, 25, 33);
   box-shadow: 1px 1px 5px hsla(0, 4%, 68%, 0.2);
-  color: #3e42ca;
+  color: #3992ff;
 }
 
 .todo-card__remove-card.dark {
