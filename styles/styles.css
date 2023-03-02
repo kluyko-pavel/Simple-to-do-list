@@ -210,6 +210,11 @@ input:focus {
 
 .toggle-theme-btn {
   background-color: inherit;
+  background-image: url(../assets/theme-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 35px;
 }
 
 .dark {
